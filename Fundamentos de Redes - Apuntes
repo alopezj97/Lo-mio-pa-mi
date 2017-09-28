@@ -1,0 +1,119 @@
+Kurose: http://www.ingebook.com/ib/NPcd/IB_Escritorio_Visualizar?cod_primaria=1000193&libro=6752
+Juama: http://www.ingebook.com/ib/NPcd/IB_Escritorio_Visualizar?cod_primaria=1000193&libro=4704
+Loéve: https://link.springer.com/book/10.1007/978-1-4684-9464-8
+
+
+
+
+
+LAN ~ 1 KM
+MAN ~ 10 KM 
+WAN ~ >10 KM -> REDES MÓVILES
+
+EL WIFI DE LA CASA PUEDE SER TANTO DE DIFUSIÓN (EL ROUTER EMITE A LOS DISPOSITIVOS) COMO DE PUNTO A PUNTO (SI UN ORDENADOR A ENVIA ALGO A B PASA POR EL ROUTER HASTA LLEGAR A B)
+
+HOSTS: SISTEMAS CAPACES DE RECIBIR INFORMACIÓN, POR EJEMPLO, FAROLAS CON EL TIEMPO
+
+LÍNEAS DE TRANSMISIÓN: CABLE, FIBRA, AIRE...
+
+PROBLEMAS A RESOLVER POR LA RED:
+	- COMO ENVIAR FISICAMENTE LA INFORMACION -> PULSOS ELÉCTRICOS, SEÑALES DE HUMO...
+	- COMPARTICIÓN DEL MEDIO -> SI VARIOS ORDENADORES QUIEREN ACCEDER AL MISMO RECURSO ESO TENDRÁ QUE TENER UN PROTOCOLO O ALGO.
+	- CONTROL DE FLUJO Y ERRORES -> LA RED TIENE QUE TENER MECANISMOS PARA QUE CUANDO SE ENVÍE UN 1 LLEGUE UN 1, LO CUAL NO ES FÁCIL, PUEDE HABER RUIDO EN LAS SEÑALES O QUE UNA SEÑAL SE ENVÍE AL SITIO EQUIVOCADO.
+
+	SUPONGAMOS QUE EL PROFESOR DICTA AL ALUMNO, SI EL PROFESOR DICTA RÁPIDO Y EL ALUMNO COPIA LENTO ENTONCES EL BÚFFER SE LLENA Y SE PIERDE INFORMACIÓN POR TANTO HAY QUE CONTROLAR Y EVITAR FALLOS EN EL CONTROL DE FLUJO.
+
+	- CONTROL DE ENCAMINAMIENTO -> HAY QUE ELEGIR EL MEJOR CAMINO PARA LA INFORMACIÓN
+
+	- CONTROL DE CONGESTIÓN -> UN RECURSO TIENE QUE SER EFICAZ SIN PERDER PRESTACIONES (ES COMPLEJO)
+
+
+MODELO DE REFERENCIA (asignación de capas a cada cosa) -> MODELO OSI 
+
+	- CAPA FISICA -> TRANSMISIÓN
+	- CAPA ENLACE -> Acceso al medio, Delimitación (tramas), control de errores, control de flujo
+	- CAPA RED -> encaminamiento
+
+	Estas tres capas son capas salto-a-salto, el resto son capas extremo-a-extremo (los dos host)
+
+	
+
+	- CAPA TRANSPORTE -> control de congestión -> qué cantidad de tráfico genero para no dejar exhausto a los recursos de red (ancho de banda de la línea (es finito) búffer en los routers (también finito))
+	- CAPA DE SESIÓN -> dialogo -> regulo el "turno de palabra", es un mecanismo que regula los "turnos" (uno se logea se le autoriza...) 
+	- CAPA DE REPRESENTACIÓN -> Sinxtaxis de la información -> Regula la sintaxis para que ambas máquinas puedan entenderse
+	- CAPA DE APLICACIÓN -> Semántica de la información -> 
+
+
+
+MODELO TCP/IP 
+
+	Parte de que hay una red subyacente (que ya existe, no se preocupa de su creación sino que la da por sentada) y se hace uso de ella a partir de una API y a partir de ahi, la red es salto a salto (involucra a los routers), transporte y sesión -> transporte, representación y aplicación -> aplicación
+
+
+
+EJEMPLO DE CAPAS
+
+TRUMP 		<-> virtualmente 	<-> Kim Jong-un
+	| mensaje (ambas direcciones)			| mensaje (ambas direcciones)
+Traductor <-> virtualmente 	<-> traductor
+	| real (ambas direcciones) 				| real (ambas direcciones)
+Teléfono	<------------------> teléfono
+
+
+	Entidades pares -> traductores (entidad de enfrente)
+	Protocolo -> Conjunto de reglas que regulan el intercambio de información virtual entre entidades pares en una capa (Ejemplo de protocolos: Http, DNS)
+	Interfaz -> Separación entre capas, por donde fluye la información entre capas
+	Servicio -> Cada una de las funcionalidades que ofrece una capa (servicio de transmisión, acceso al medio, delimitación, control de errores...)
+	Capa proovedora de servicio -> La capa proveedora de servicio es la capa inferior, el usuario, la capa superior.
+	Pila de protocolos -> 
+	Arquitectura de red -> Unión de un modelo de referencia (OSI, TCP/IP) y una pila de protocolos. Si dos host tienen la misma arquitectura entonces es condición necesaria y suficiente para que dos host intercambien información transparente y eficazmente. El resto de cosas pueden cambiar (la red, el SO, el cliente de whatsapp).
+
+		
+RETARDO
+
+1) Tiempo de acceso al medio (tiempo que pasa hasta que "te toca")
+2) Tiempo de procesamiento (también salto a salto, decide que ruta tomar)
+3) Tiempo en la cola (tiempo que pasa hasta que el paquete se envía)	
+4) Tiempo de transmisión (envías un 1KB pero la línea de transmisión tiene una velocidad de transimisión Vt (ancho de banda = capacidad de la línea = Vt = bits/s) si esa vt es menor tardará en enviarse todo)
+5) Tiempo de propagación (relacionado con la distancia que tiene que recorrer)
+
+
+
+SERVICIOS 
+
+	- Orientado a conexión -> Exige simultaneidad y acomplamiento entre las dos entidades antes del envío de información (antes de empezar a hablar hay que estar en un estado determinado) -> Ejemplo: llamada de teléfono
+
+	- No orientado a conexión -> No tiene porqué "esperar" a esa situación, yo te envío la información y ya tu la lees -> Ejemplo: un sms, una carta...
+
+
+	- Confirmados (ACK = acknoledgment) -> Exige un retorno o una retroalimentación (Un OK de que todo ha llegado bien)
+
+	- No Confirmados -> No esperas ninguna respuesta 
+
+
+TOPOLOGÍA DE INTERNET
+
+Una red doméstica/empresarial/de usuario final (intranet) <=> accede a internet a través de un <=> ISP de acceso (redes de acceso, Vodafone, ONO...) -> Operadores de telecomunicaciones que le venden a estos 
+
+Cuando un ISP solicita a un ISP regional (o entre operadores) que tipo de acuerdos se dan?
+
+	Acuerdos:
+		- Peering -> Contratos que se dan entre operadores para el intercambio de tráfico sin contraprestación económica. -> Ganan conectividad, regiones que no alcanzan.
+		- Tránsito -> Se cambia Mbps a cambio de dollars.
+
+
+	TIPOS DE OPERADORES DE INTERNET
+
+		TIER 1 -> Operadores que acceden a cualquier IP sólo con peering -> Ganan vendiendo tránsito a los de abajo.
+		TIER 2 -> Operadores que necesitan para acceder acuerdos de tránsito, aunque también tienen peering. -> Ganan vendiendo a los tier 3
+		TIER 3 -> Operadores que necesitan tránsito. -> Ganan vendiendo a los ISP de acceso
+
+	PUNTOS NEUTROS O PUNTOS DE PRESENCIA O PUNTOS DE INTERCAMBIOS
+
+		Son empresas que ponen a disposicion de los operadores infraestructuras para hacer el intercambio de tránsito. Si queremos enviarle un mensaje a nuestro vecino, para que el mensaje no tenga que ir muy lejos para hacer el intercambio, existen estos puntos neutros, normalmente más cercanos.
+
+
+
+
+
+
