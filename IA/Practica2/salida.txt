@@ -1,0 +1,1733 @@
+entro a think
+entro a pathFinding
+iteracion = 0
+nodo actua: {45,9,0} con coste = 29
+iteracion = 1
+nodo actua: {44,9,0} con coste = 58
+iteracion = 2
+nodo actua: {45,9,3} con coste = 59
+iteracion = 3
+nodo actua: {45,9,1} con coste = 59
+iteracion = 4
+nodo actua: {44,9,3} con coste = 87
+iteracion = 5
+nodo actua: {44,9,1} con coste = 87
+iteracion = 6
+nodo actua: {45,10,1} con coste = 88
+iteracion = 7
+nodo actua: {45,9,2} con coste = 89
+iteracion = 8
+nodo actua: {45,9,0} con coste = 89
+iteracion = 9
+nodo actua: {45,8,3} con coste = 90
+iteracion = 10
+nodo actua: {44,9,2} con coste = 116
+iteracion = 11
+nodo actua: {45,11,1} con coste = 116
+iteracion = 12
+nodo actua: {45,10,0} con coste = 117
+iteracion = 13
+nodo actua: {45,10,2} con coste = 117
+iteracion = 14
+nodo actua: {46,9,2} con coste = 120
+iteracion = 15
+nodo actua: {45,8,2} con coste = 121
+iteracion = 16
+nodo actua: {45,8,0} con coste = 121
+iteracion = 17
+nodo actua: {45,7,3} con coste = 122
+iteracion = 18
+nodo actua: {45,12,1} con coste = 143
+iteracion = 19
+nodo actua: {45,11,0} con coste = 144
+iteracion = 20
+nodo actua: {45,11,2} con coste = 144
+iteracion = 21
+nodo actua: {45,10,3} con coste = 146
+iteracion = 22
+nodo actua: {46,10,2} con coste = 147
+iteracion = 23
+nodo actua: {46,9,1} con coste = 151
+iteracion = 24
+nodo actua: {46,9,3} con coste = 151
+iteracion = 25
+nodo actua: {45,8,1} con coste = 152
+iteracion = 26
+nodo actua: {46,8,2} con coste = 153
+iteracion = 27
+nodo actua: {45,7,2} con coste = 154
+iteracion = 28
+nodo actua: {45,7,0} con coste = 154
+iteracion = 29
+nodo actua: {45,13,1} con coste = 169
+iteracion = 30
+nodo actua: {45,12,0} con coste = 170
+iteracion = 31
+nodo actua: {45,12,2} con coste = 170
+iteracion = 32
+nodo actua: {44,11,0} con coste = 171
+iteracion = 33
+nodo actua: {45,11,3} con coste = 172
+iteracion = 34
+nodo actua: {46,11,2} con coste = 173
+iteracion = 35
+nodo actua: {46,10,1} con coste = 177
+iteracion = 36
+nodo actua: {46,10,3} con coste = 177
+iteracion = 37
+nodo actua: {46,9,0} con coste = 182
+iteracion = 38
+nodo actua: {46,8,3} con coste = 183
+iteracion = 39
+nodo actua: {46,8,1} con coste = 185
+iteracion = 40
+nodo actua: {44,7,0} con coste = 185
+iteracion = 41
+nodo actua: {45,7,1} con coste = 186
+iteracion = 42
+nodo actua: {46,7,2} con coste = 187
+iteracion = 43
+nodo actua: {45,14,1} con coste = 194
+iteracion = 44
+nodo actua: {45,13,0} con coste = 195
+iteracion = 45
+nodo actua: {45,13,2} con coste = 195
+iteracion = 46
+nodo actua: {44,12,0} con coste = 196
+iteracion = 47
+nodo actua: {45,12,3} con coste = 197
+iteracion = 48
+nodo actua: {46,12,2} con coste = 198
+iteracion = 49
+nodo actua: {44,11,3} con coste = 198
+iteracion = 50
+nodo actua: {44,11,1} con coste = 198
+iteracion = 51
+nodo actua: {46,11,1} con coste = 202
+iteracion = 52
+nodo actua: {46,11,3} con coste = 202
+iteracion = 53
+nodo actua: {46,10,0} con coste = 207
+iteracion = 54
+nodo actua: {46,8,0} con coste = 215
+iteracion = 55
+nodo actua: {46,7,3} con coste = 216
+iteracion = 56
+nodo actua: {44,7,3} con coste = 216
+iteracion = 57
+nodo actua: {44,7,1} con coste = 216
+iteracion = 58
+nodo actua: {45,15,1} con coste = 218
+iteracion = 59
+nodo actua: {45,14,0} con coste = 219
+iteracion = 60
+nodo actua: {45,14,2} con coste = 219
+iteracion = 61
+nodo actua: {46,7,1} con coste = 220
+iteracion = 62
+nodo actua: {44,13,0} con coste = 220
+iteracion = 63
+nodo actua: {45,13,3} con coste = 221
+iteracion = 64
+nodo actua: {46,13,2} con coste = 222
+iteracion = 65
+nodo actua: {44,12,3} con coste = 222
+iteracion = 66
+nodo actua: {44,12,1} con coste = 222
+iteracion = 67
+nodo actua: {44,11,2} con coste = 225
+iteracion = 68
+nodo actua: {46,12,1} con coste = 226
+iteracion = 69
+nodo actua: {46,12,3} con coste = 226
+iteracion = 70
+nodo actua: {46,11,0} con coste = 231
+iteracion = 71
+nodo actua: {45,16,1} con coste = 241
+iteracion = 72
+nodo actua: {45,15,0} con coste = 242
+iteracion = 73
+nodo actua: {45,15,2} con coste = 242
+iteracion = 74
+nodo actua: {44,14,0} con coste = 243
+iteracion = 75
+nodo actua: {45,14,3} con coste = 244
+iteracion = 76
+nodo actua: {43,13,0} con coste = 244
+iteracion = 77
+nodo actua: {46,14,2} con coste = 245
+iteracion = 78
+nodo actua: {44,13,3} con coste = 245
+iteracion = 79
+nodo actua: {44,13,1} con coste = 245
+iteracion = 80
+nodo actua: {44,7,2} con coste = 247
+iteracion = 81
+nodo actua: {44,6,3} con coste = 248
+iteracion = 82
+nodo actua: {44,12,2} con coste = 248
+iteracion = 83
+nodo actua: {46,7,0} con coste = 249
+iteracion = 84
+nodo actua: {46,13,1} con coste = 249
+iteracion = 85
+nodo actua: {46,13,3} con coste = 249
+iteracion = 86
+nodo actua: {46,6,3} con coste = 250
+iteracion = 87
+nodo actua: {46,12,0} con coste = 254
+iteracion = 88
+nodo actua: {45,17,1} con coste = 263
+iteracion = 89
+nodo actua: {45,16,0} con coste = 264
+iteracion = 90
+nodo actua: {45,16,2} con coste = 264
+iteracion = 91
+nodo actua: {44,15,0} con coste = 265
+iteracion = 92
+nodo actua: {45,15,3} con coste = 266
+iteracion = 93
+nodo actua: {43,14,0} con coste = 266
+iteracion = 94
+nodo actua: {46,15,2} con coste = 267
+iteracion = 95
+nodo actua: {44,14,3} con coste = 267
+iteracion = 96
+nodo actua: {44,14,1} con coste = 267
+iteracion = 97
+nodo actua: {42,13,0} con coste = 267
+iteracion = 98
+nodo actua: {43,13,3} con coste = 268
+iteracion = 99
+nodo actua: {43,13,1} con coste = 268
+iteracion = 100
+nodo actua: {44,13,2} con coste = 270
+iteracion = 101
+nodo actua: {46,14,1} con coste = 271
+iteracion = 102
+nodo actua: {46,14,3} con coste = 271
+iteracion = 103
+nodo actua: {46,13,0} con coste = 276
+iteracion = 104
+nodo actua: {44,6,2} con coste = 280
+iteracion = 105
+nodo actua: {44,6,0} con coste = 280
+iteracion = 106
+nodo actua: {44,5,3} con coste = 281
+iteracion = 107
+nodo actua: {46,6,2} con coste = 284
+iteracion = 108
+nodo actua: {46,6,0} con coste = 284
+iteracion = 109
+nodo actua: {45,18,1} con coste = 284
+iteracion = 110
+nodo actua: {45,17,0} con coste = 285
+iteracion = 111
+nodo actua: {45,17,2} con coste = 285
+iteracion = 112
+nodo actua: {44,16,0} con coste = 286
+iteracion = 113
+nodo actua: {45,16,3} con coste = 287
+iteracion = 114
+nodo actua: {43,15,0} con coste = 287
+iteracion = 115
+nodo actua: {46,16,2} con coste = 288
+iteracion = 116
+nodo actua: {44,15,3} con coste = 288
+iteracion = 117
+nodo actua: {44,15,1} con coste = 288
+iteracion = 118
+nodo actua: {42,14,0} con coste = 288
+iteracion = 119
+nodo actua: {43,14,3} con coste = 289
+iteracion = 120
+nodo actua: {43,14,1} con coste = 289
+iteracion = 121
+nodo actua: {41,13,0} con coste = 289
+iteracion = 122
+nodo actua: {42,13,3} con coste = 290
+iteracion = 123
+nodo actua: {42,13,1} con coste = 290
+iteracion = 124
+nodo actua: {44,14,2} con coste = 291
+iteracion = 125
+nodo actua: {46,15,1} con coste = 292
+iteracion = 126
+nodo actua: {46,15,3} con coste = 292
+iteracion = 127
+nodo actua: {43,13,2} con coste = 292
+iteracion = 128
+nodo actua: {46,14,0} con coste = 297
+iteracion = 129
+nodo actua: {45,18,0} con coste = 305
+iteracion = 130
+nodo actua: {45,18,2} con coste = 305
+iteracion = 131
+nodo actua: {44,17,0} con coste = 306
+iteracion = 132
+nodo actua: {45,17,3} con coste = 307
+iteracion = 133
+nodo actua: {43,16,0} con coste = 307
+iteracion = 134
+nodo actua: {46,17,2} con coste = 308
+iteracion = 135
+nodo actua: {44,16,3} con coste = 308
+iteracion = 136
+nodo actua: {44,16,1} con coste = 308
+iteracion = 137
+nodo actua: {42,15,0} con coste = 308
+iteracion = 138
+nodo actua: {43,15,3} con coste = 309
+iteracion = 139
+nodo actua: {43,15,1} con coste = 309
+iteracion = 140
+nodo actua: {41,14,0} con coste = 309
+iteracion = 141
+nodo actua: {42,14,3} con coste = 310
+iteracion = 142
+nodo actua: {42,14,1} con coste = 310
+iteracion = 143
+nodo actua: {40,13,0} con coste = 310
+iteracion = 144
+nodo actua: {43,6,0} con coste = 311
+iteracion = 145
+nodo actua: {44,15,2} con coste = 311
+iteracion = 146
+nodo actua: {41,13,3} con coste = 311
+iteracion = 147
+nodo actua: {41,13,1} con coste = 311
+iteracion = 148
+nodo actua: {44,6,1} con coste = 312
+iteracion = 149
+nodo actua: {46,16,1} con coste = 312
+iteracion = 150
+nodo actua: {46,16,3} con coste = 312
+iteracion = 151
+nodo actua: {43,14,2} con coste = 312
+iteracion = 152
+nodo actua: {42,13,2} con coste = 313
+iteracion = 153
+nodo actua: {44,5,2} con coste = 314
+iteracion = 154
+nodo actua: {44,5,0} con coste = 314
+iteracion = 155
+nodo actua: {46,15,0} con coste = 317
+iteracion = 156
+nodo actua: {46,6,1} con coste = 318
+iteracion = 157
+nodo actua: {44,18,0} con coste = 325
+iteracion = 158
+nodo actua: {45,18,3} con coste = 326
+iteracion = 159
+nodo actua: {43,17,0} con coste = 326
+iteracion = 160
+nodo actua: {46,18,2} con coste = 327
+iteracion = 161
+nodo actua: {44,17,3} con coste = 327
+iteracion = 162
+nodo actua: {44,17,1} con coste = 327
+iteracion = 163
+nodo actua: {42,16,0} con coste = 327
+iteracion = 164
+nodo actua: {43,16,3} con coste = 328
+iteracion = 165
+nodo actua: {43,16,1} con coste = 328
+iteracion = 166
+nodo actua: {41,15,0} con coste = 328
+iteracion = 167
+nodo actua: {42,15,3} con coste = 329
+iteracion = 168
+nodo actua: {42,15,1} con coste = 329
+iteracion = 169
+nodo actua: {44,16,2} con coste = 330
+iteracion = 170
+nodo actua: {41,14,3} con coste = 330
+iteracion = 171
+nodo actua: {41,14,1} con coste = 330
+iteracion = 172
+nodo actua: {46,17,1} con coste = 331
+iteracion = 173
+nodo actua: {46,17,3} con coste = 331
+iteracion = 174
+nodo actua: {43,15,2} con coste = 331
+iteracion = 175
+nodo actua: {40,13,3} con coste = 331
+iteracion = 176
+nodo actua: {40,13,1} con coste = 331
+iteracion = 177
+nodo actua: {42,14,2} con coste = 332
+iteracion = 178
+nodo actua: {41,13,2} con coste = 333
+iteracion = 179
+nodo actua: {46,16,0} con coste = 336
+iteracion = 180
+nodo actua: {42,6,0} con coste = 341
+iteracion = 181
+nodo actua: {43,6,3} con coste = 342
+iteracion = 182
+nodo actua: {43,6,1} con coste = 342
+iteracion = 183
+nodo actua: {43,18,0} con coste = 344
+iteracion = 184
+nodo actua: {44,18,3} con coste = 345
+iteracion = 185
+nodo actua: {44,18,1} con coste = 345
+iteracion = 186
+nodo actua: {42,17,0} con coste = 345
+iteracion = 187
+nodo actua: {43,5,0} con coste = 346
+iteracion = 188
+nodo actua: {43,17,3} con coste = 346
+iteracion = 189
+nodo actua: {43,17,1} con coste = 346
+iteracion = 190
+nodo actua: {41,16,0} con coste = 346
+iteracion = 191
+nodo actua: {44,5,1} con coste = 347
+iteracion = 192
+nodo actua: {42,16,3} con coste = 347
+iteracion = 193
+nodo actua: {42,16,1} con coste = 347
+iteracion = 194
+nodo actua: {44,17,2} con coste = 348
+iteracion = 195
+nodo actua: {41,15,3} con coste = 348
+iteracion = 196
+nodo actua: {41,15,1} con coste = 348
+iteracion = 197
+nodo actua: {46,18,1} con coste = 349
+iteracion = 198
+nodo actua: {46,18,3} con coste = 349
+iteracion = 199
+nodo actua: {43,16,2} con coste = 349
+iteracion = 200
+nodo actua: {42,15,2} con coste = 350
+iteracion = 201
+nodo actua: {41,14,2} con coste = 351
+iteracion = 202
+nodo actua: {40,13,2} con coste = 352
+iteracion = 203
+nodo actua: {40,12,3} con coste = 353
+iteracion = 204
+nodo actua: {46,17,0} con coste = 354
+iteracion = 205
+nodo actua: {43,18,3} con coste = 363
+iteracion = 206
+nodo actua: {43,18,1} con coste = 363
+iteracion = 207
+nodo actua: {41,17,0} con coste = 363
+iteracion = 208
+nodo actua: {42,17,3} con coste = 364
+iteracion = 209
+nodo actua: {42,17,1} con coste = 364
+iteracion = 210
+nodo actua: {40,16,0} con coste = 364
+iteracion = 211
+nodo actua: {44,18,2} con coste = 365
+iteracion = 212
+nodo actua: {41,16,3} con coste = 365
+iteracion = 213
+nodo actua: {41,16,1} con coste = 365
+iteracion = 214
+nodo actua: {43,17,2} con coste = 366
+iteracion = 215
+nodo actua: {42,16,2} con coste = 367
+iteracion = 216
+nodo actua: {41,15,2} con coste = 368
+iteracion = 217
+nodo actua: {42,6,3} con coste = 371
+iteracion = 218
+nodo actua: {42,6,1} con coste = 371
+iteracion = 219
+nodo actua: {46,18,0} con coste = 371
+iteracion = 220
+nodo actua: {43,6,2} con coste = 373
+iteracion = 221
+nodo actua: {43,5,3} con coste = 374
+iteracion = 222
+nodo actua: {40,12,2} con coste = 375
+iteracion = 223
+nodo actua: {40,12,0} con coste = 375
+iteracion = 224
+nodo actua: {42,5,0} con coste = 377
+iteracion = 225
+nodo actua: {43,5,1} con coste = 378
+iteracion = 226
+nodo actua: {40,17,0} con coste = 380
+iteracion = 227
+nodo actua: {41,17,3} con coste = 381
+iteracion = 228
+nodo actua: {41,17,1} con coste = 381
+iteracion = 229
+nodo actua: {39,16,0} con coste = 381
+iteracion = 230
+nodo actua: {43,18,2} con coste = 382
+iteracion = 231
+nodo actua: {40,16,3} con coste = 382
+iteracion = 232
+nodo actua: {40,16,1} con coste = 382
+iteracion = 233
+nodo actua: {42,17,2} con coste = 383
+iteracion = 234
+nodo actua: {41,16,2} con coste = 384
+iteracion = 235
+nodo actua: {39,12,0} con coste = 396
+iteracion = 236
+nodo actua: {39,17,0} con coste = 396
+iteracion = 237
+nodo actua: {40,12,1} con coste = 397
+iteracion = 238
+nodo actua: {40,17,3} con coste = 397
+iteracion = 239
+nodo actua: {40,17,1} con coste = 397
+iteracion = 240
+nodo actua: {38,16,0} con coste = 397
+iteracion = 241
+nodo actua: {39,16,3} con coste = 398
+iteracion = 242
+nodo actua: {39,16,1} con coste = 398
+iteracion = 243
+nodo actua: {41,17,2} con coste = 399
+iteracion = 244
+nodo actua: {42,7,1} con coste = 400
+iteracion = 245
+nodo actua: {40,16,2} con coste = 400
+iteracion = 246
+nodo actua: {42,6,2} con coste = 401
+iteracion = 247
+nodo actua: {42,5,3} con coste = 402
+iteracion = 248
+nodo actua: {43,5,2} con coste = 406
+iteracion = 249
+nodo actua: {43,4,3} con coste = 407
+iteracion = 250
+nodo actua: {42,5,1} con coste = 408
+iteracion = 251
+nodo actua: {38,17,0} con coste = 411
+iteracion = 252
+nodo actua: {39,17,3} con coste = 412
+iteracion = 253
+nodo actua: {39,17,1} con coste = 412
+iteracion = 254
+nodo actua: {37,16,0} con coste = 412
+iteracion = 255
+nodo actua: {40,18,1} con coste = 413
+iteracion = 256
+nodo actua: {38,16,3} con coste = 413
+iteracion = 257
+nodo actua: {38,16,1} con coste = 413
+iteracion = 258
+nodo actua: {40,17,2} con coste = 414
+iteracion = 259
+nodo actua: {39,16,2} con coste = 415
+iteracion = 260
+nodo actua: {39,12,3} con coste = 417
+iteracion = 261
+nodo actua: {39,12,1} con coste = 417
+iteracion = 262
+nodo actua: {37,17,0} con coste = 425
+iteracion = 263
+nodo actua: {38,17,3} con coste = 426
+iteracion = 264
+nodo actua: {38,17,1} con coste = 426
+iteracion = 265
+nodo actua: {36,16,0} con coste = 426
+iteracion = 266
+nodo actua: {39,18,1} con coste = 427
+iteracion = 267
+nodo actua: {37,16,3} con coste = 427
+iteracion = 268
+nodo actua: {37,16,1} con coste = 427
+iteracion = 269
+nodo actua: {42,8,1} con coste = 428
+iteracion = 270
+nodo actua: {39,17,2} con coste = 428
+iteracion = 271
+nodo actua: {42,7,0} con coste = 429
+iteracion = 272
+nodo actua: {42,7,2} con coste = 429
+iteracion = 273
+nodo actua: {40,18,0} con coste = 429
+iteracion = 274
+nodo actua: {40,18,2} con coste = 429
+iteracion = 275
+nodo actua: {38,16,2} con coste = 429
+iteracion = 276
+nodo actua: {40,19,1} con coste = 430
+iteracion = 277
+nodo actua: {42,5,2} con coste = 433
+iteracion = 278
+nodo actua: {42,4,3} con coste = 434
+iteracion = 279
+nodo actua: {39,12,2} con coste = 438
+iteracion = 280
+nodo actua: {36,17,0} con coste = 438
+iteracion = 281
+nodo actua: {39,11,3} con coste = 439
+iteracion = 282
+nodo actua: {37,17,3} con coste = 439
+iteracion = 283
+nodo actua: {37,17,1} con coste = 439
+iteracion = 284
+nodo actua: {35,16,0} con coste = 439
+iteracion = 285
+nodo actua: {43,4,2} con coste = 440
+iteracion = 286
+nodo actua: {43,4,0} con coste = 440
+iteracion = 287
+nodo actua: {38,18,1} con coste = 440
+iteracion = 288
+nodo actua: {36,16,3} con coste = 440
+iteracion = 289
+nodo actua: {36,16,1} con coste = 440
+iteracion = 290
+nodo actua: {43,3,3} con coste = 441
+iteracion = 291
+nodo actua: {38,17,2} con coste = 441
+iteracion = 292
+nodo actua: {39,18,0} con coste = 442
+iteracion = 293
+nodo actua: {39,18,2} con coste = 442
+iteracion = 294
+nodo actua: {37,16,2} con coste = 442
+iteracion = 295
+nodo actua: {39,19,1} con coste = 443
+iteracion = 296
+nodo actua: {40,18,3} con coste = 445
+iteracion = 297
+nodo actua: {40,19,0} con coste = 447
+iteracion = 298
+nodo actua: {40,19,2} con coste = 447
+iteracion = 299
+nodo actua: {40,20,1} con coste = 448
+iteracion = 300
+nodo actua: {35,17,0} con coste = 450
+iteracion = 301
+nodo actua: {36,17,3} con coste = 451
+iteracion = 302
+nodo actua: {36,17,1} con coste = 451
+iteracion = 303
+nodo actua: {34,16,0} con coste = 451
+iteracion = 304
+nodo actua: {37,18,1} con coste = 452
+iteracion = 305
+nodo actua: {35,16,3} con coste = 452
+iteracion = 306
+nodo actua: {35,16,1} con coste = 452
+iteracion = 307
+nodo actua: {37,17,2} con coste = 453
+iteracion = 308
+nodo actua: {38,18,0} con coste = 454
+iteracion = 309
+nodo actua: {38,18,2} con coste = 454
+iteracion = 310
+nodo actua: {36,16,2} con coste = 454
+iteracion = 311
+nodo actua: {38,19,1} con coste = 455
+iteracion = 312
+nodo actua: {42,8,0} con coste = 456
+iteracion = 313
+nodo actua: {42,8,2} con coste = 456
+iteracion = 314
+nodo actua: {39,18,3} con coste = 457
+iteracion = 315
+nodo actua: {42,7,3} con coste = 458
+iteracion = 316
+nodo actua: {39,19,0} con coste = 459
+iteracion = 317
+nodo actua: {39,19,2} con coste = 459
+iteracion = 318
+nodo actua: {39,20,1} con coste = 460
+iteracion = 319
+nodo actua: {39,11,2} con coste = 461
+iteracion = 320
+nodo actua: {39,11,0} con coste = 461
+iteracion = 321
+nodo actua: {34,17,0} con coste = 461
+iteracion = 322
+nodo actua: {39,10,3} con coste = 462
+iteracion = 323
+nodo actua: {35,17,3} con coste = 462
+iteracion = 324
+nodo actua: {35,17,1} con coste = 462
+iteracion = 325
+nodo actua: {33,16,0} con coste = 462
+iteracion = 326
+nodo actua: {36,18,1} con coste = 463
+iteracion = 327
+nodo actua: {34,16,3} con coste = 463
+iteracion = 328
+nodo actua: {34,16,1} con coste = 463
+iteracion = 329
+nodo actua: {40,19,3} con coste = 464
+iteracion = 330
+nodo actua: {36,17,2} con coste = 464
+iteracion = 331
+nodo actua: {37,18,0} con coste = 465
+iteracion = 332
+nodo actua: {37,18,2} con coste = 465
+iteracion = 333
+nodo actua: {35,16,2} con coste = 465
+iteracion = 334
+nodo actua: {42,4,2} con coste = 466
+iteracion = 335
+nodo actua: {42,4,0} con coste = 466
+iteracion = 336
+nodo actua: {40,20,0} con coste = 466
+iteracion = 337
+nodo actua: {40,20,2} con coste = 466
+iteracion = 338
+nodo actua: {37,19,1} con coste = 466
+iteracion = 339
+nodo actua: {42,3,3} con coste = 467
+iteracion = 340
+nodo actua: {40,21,1} con coste = 467
+iteracion = 341
+nodo actua: {38,18,3} con coste = 468
+iteracion = 342
+nodo actua: {38,19,0} con coste = 470
+iteracion = 343
+nodo actua: {38,19,2} con coste = 470
+iteracion = 344
+nodo actua: {38,20,1} con coste = 471
+iteracion = 345
+nodo actua: {33,17,0} con coste = 471
+iteracion = 346
+nodo actua: {34,17,3} con coste = 472
+iteracion = 347
+nodo actua: {34,17,1} con coste = 472
+iteracion = 348
+nodo actua: {32,16,0} con coste = 472
+iteracion = 349
+nodo actua: {43,4,1} con coste = 473
+iteracion = 350
+nodo actua: {35,18,1} con coste = 473
+iteracion = 351
+nodo actua: {33,16,3} con coste = 473
+iteracion = 352
+nodo actua: {33,16,1} con coste = 473
+iteracion = 353
+nodo actua: {35,17,2} con coste = 474
+iteracion = 354
+nodo actua: {43,3,2} con coste = 475
+iteracion = 355
+nodo actua: {43,3,0} con coste = 475
+iteracion = 356
+nodo actua: {39,19,3} con coste = 475
+iteracion = 357
+nodo actua: {36,18,0} con coste = 475
+iteracion = 358
+nodo actua: {36,18,2} con coste = 475
+iteracion = 359
+nodo actua: {34,16,2} con coste = 475
+iteracion = 360
+nodo actua: {36,19,1} con coste = 476
+iteracion = 361
+nodo actua: {39,20,0} con coste = 477
+iteracion = 362
+nodo actua: {39,20,2} con coste = 477
+iteracion = 363
+nodo actua: {39,21,1} con coste = 478
+iteracion = 364
+nodo actua: {37,18,3} con coste = 478
+iteracion = 365
+nodo actua: {37,19,0} con coste = 480
+iteracion = 366
+nodo actua: {37,19,2} con coste = 480
+iteracion = 367
+nodo actua: {32,17,0} con coste = 480
+iteracion = 368
+nodo actua: {37,20,1} con coste = 481
+iteracion = 369
+nodo actua: {33,17,3} con coste = 481
+iteracion = 370
+nodo actua: {33,17,1} con coste = 481
+iteracion = 371
+nodo actua: {31,16,0} con coste = 481
+iteracion = 372
+nodo actua: {38,11,0} con coste = 482
+iteracion = 373
+nodo actua: {34,18,1} con coste = 482
+iteracion = 374
+nodo actua: {32,16,3} con coste = 482
+iteracion = 375
+nodo actua: {32,16,1} con coste = 482
+iteracion = 376
+nodo actua: {39,11,1} con coste = 483
+iteracion = 377
+nodo actua: {34,17,2} con coste = 483
+iteracion = 378
+nodo actua: {42,8,3} con coste = 484
+iteracion = 379
+nodo actua: {40,20,3} con coste = 484
+iteracion = 380
+nodo actua: {35,18,0} con coste = 484
+iteracion = 381
+nodo actua: {35,18,2} con coste = 484
+iteracion = 382
+nodo actua: {33,16,2} con coste = 484
+iteracion = 383
+nodo actua: {39,10,2} con coste = 485
+iteracion = 384
+nodo actua: {39,10,0} con coste = 485
+iteracion = 385
+nodo actua: {38,19,3} con coste = 485
+iteracion = 386
+nodo actua: {35,19,1} con coste = 485
+iteracion = 387
+nodo actua: {40,21,0} con coste = 486
+iteracion = 388
+nodo actua: {40,21,2} con coste = 486
+iteracion = 389
+nodo actua: {40,22,1} con coste = 487
+iteracion = 390
+nodo actua: {38,20,0} con coste = 487
+iteracion = 391
+nodo actua: {38,20,2} con coste = 487
+iteracion = 392
+nodo actua: {36,18,3} con coste = 487
+iteracion = 393
+nodo actua: {38,21,1} con coste = 488
+iteracion = 394
+nodo actua: {31,17,0} con coste = 488
+iteracion = 395
+nodo actua: {36,19,0} con coste = 489
+iteracion = 396
+nodo actua: {36,19,2} con coste = 489
+iteracion = 397
+nodo actua: {32,17,3} con coste = 489
+iteracion = 398
+nodo actua: {32,17,1} con coste = 489
+iteracion = 399
+nodo actua: {30,16,0} con coste = 489
+iteracion = 400
+nodo actua: {36,20,1} con coste = 490
+iteracion = 401
+nodo actua: {33,18,1} con coste = 490
+iteracion = 402
+nodo actua: {31,16,3} con coste = 490
+iteracion = 403
+nodo actua: {31,16,1} con coste = 490
+iteracion = 404
+nodo actua: {33,17,2} con coste = 491
+iteracion = 405
+nodo actua: {34,18,0} con coste = 492
+iteracion = 406
+nodo actua: {34,18,2} con coste = 492
+iteracion = 407
+nodo actua: {32,16,2} con coste = 492
+iteracion = 408
+nodo actua: {34,19,1} con coste = 493
+iteracion = 409
+nodo actua: {39,20,3} con coste = 494
+iteracion = 410
+nodo actua: {37,19,3} con coste = 494
+iteracion = 411
+nodo actua: {35,18,3} con coste = 495
+iteracion = 412
+nodo actua: {30,17,0} con coste = 495
+iteracion = 413
+nodo actua: {39,21,0} con coste = 496
+iteracion = 414
+nodo actua: {39,21,2} con coste = 496
+iteracion = 415
+nodo actua: {37,20,0} con coste = 496
+iteracion = 416
+nodo actua: {37,20,2} con coste = 496
+iteracion = 417
+nodo actua: {31,17,3} con coste = 496
+iteracion = 418
+nodo actua: {31,17,1} con coste = 496
+iteracion = 419
+nodo actua: {29,16,0} con coste = 496
+iteracion = 420
+nodo actua: {39,22,1} con coste = 497
+iteracion = 421
+nodo actua: {37,21,1} con coste = 497
+iteracion = 422
+nodo actua: {35,19,0} con coste = 497
+iteracion = 423
+nodo actua: {35,19,2} con coste = 497
+iteracion = 424
+nodo actua: {32,18,1} con coste = 497
+iteracion = 425
+nodo actua: {30,16,3} con coste = 497
+iteracion = 426
+nodo actua: {30,16,1} con coste = 497
+iteracion = 427
+nodo actua: {42,4,1} con coste = 498
+iteracion = 428
+nodo actua: {35,20,1} con coste = 498
+iteracion = 429
+nodo actua: {32,17,2} con coste = 498
+iteracion = 430
+nodo actua: {33,18,0} con coste = 499
+iteracion = 431
+nodo actua: {33,18,2} con coste = 499
+iteracion = 432
+nodo actua: {31,16,2} con coste = 499
+iteracion = 433
+nodo actua: {42,3,2} con coste = 500
+iteracion = 434
+nodo actua: {42,3,0} con coste = 500
+iteracion = 435
+nodo actua: {33,19,1} con coste = 500
+iteracion = 436
+nodo actua: {29,17,0} con coste = 501
+iteracion = 437
+nodo actua: {36,19,3} con coste = 502
+iteracion = 438
+nodo actua: {34,18,3} con coste = 502
+iteracion = 439
+nodo actua: {30,17,3} con coste = 502
+iteracion = 440
+nodo actua: {30,17,1} con coste = 502
+iteracion = 441
+nodo actua: {28,16,0} con coste = 502
+iteracion = 442
+nodo actua: {38,11,3} con coste = 503
+iteracion = 443
+nodo actua: {38,11,1} con coste = 503
+iteracion = 444
+nodo actua: {38,20,3} con coste = 503
+iteracion = 445
+nodo actua: {31,18,1} con coste = 503
+iteracion = 446
+nodo actua: {29,16,3} con coste = 503
+iteracion = 447
+nodo actua: {29,16,1} con coste = 503
+iteracion = 448
+nodo actua: {36,20,0} con coste = 504
+iteracion = 449
+nodo actua: {36,20,2} con coste = 504
+iteracion = 450
+nodo actua: {34,19,0} con coste = 504
+iteracion = 451
+nodo actua: {34,19,2} con coste = 504
+iteracion = 452
+nodo actua: {31,17,2} con coste = 504
+iteracion = 453
+nodo actua: {40,21,3} con coste = 505
+iteracion = 454
+nodo actua: {38,21,0} con coste = 505
+iteracion = 455
+nodo actua: {38,21,2} con coste = 505
+iteracion = 456
+nodo actua: {36,21,1} con coste = 505
+iteracion = 457
+nodo actua: {34,20,1} con coste = 505
+iteracion = 458
+nodo actua: {32,18,0} con coste = 505
+iteracion = 459
+nodo actua: {32,18,2} con coste = 505
+iteracion = 460
+nodo actua: {30,16,2} con coste = 505
+iteracion = 461
+nodo actua: {41,21,2} con coste = 506
+iteracion = 462
+nodo actua: {38,22,1} con coste = 506
+iteracion = 463
+nodo actua: {32,19,1} con coste = 506
+iteracion = 464
+nodo actua: {28,17,0} con coste = 506
+iteracion = 465
+nodo actua: {38,10,0} con coste = 507
+iteracion = 466
+nodo actua: {40,22,0} con coste = 507
+iteracion = 467
+nodo actua: {40,22,2} con coste = 507
+iteracion = 468
+nodo actua: {29,17,3} con coste = 507
+iteracion = 469
+nodo actua: {29,17,1} con coste = 507
+iteracion = 470
+nodo actua: {27,16,0} con coste = 507
+iteracion = 471
+nodo actua: {39,10,1} con coste = 508
+iteracion = 472
+nodo actua: {40,23,1} con coste = 508
+iteracion = 473
+nodo actua: {33,18,3} con coste = 508
+iteracion = 474
+nodo actua: {30,18,1} con coste = 508
+iteracion = 475
+nodo actua: {28,16,3} con coste = 508
+iteracion = 476
+nodo actua: {28,16,1} con coste = 508
+iteracion = 477
+nodo actua: {43,3,1} con coste = 509
+iteracion = 478
+nodo actua: {35,19,3} con coste = 509
+iteracion = 479
+nodo actua: {30,17,2} con coste = 509
+iteracion = 480
+nodo actua: {44,3,2} con coste = 510
+iteracion = 481
+nodo actua: {33,19,0} con coste = 510
+iteracion = 482
+nodo actua: {33,19,2} con coste = 510
+iteracion = 483
+nodo actua: {31,18,2} con coste = 510
+iteracion = 484
+nodo actua: {29,16,2} con coste = 510
+iteracion = 485
+nodo actua: {27,17,0} con coste = 510
+iteracion = 486
+nodo actua: {37,20,3} con coste = 511
+iteracion = 487
+nodo actua: {35,20,0} con coste = 511
+iteracion = 488
+nodo actua: {35,20,2} con coste = 511
+iteracion = 489
+nodo actua: {33,20,1} con coste = 511
+iteracion = 490
+nodo actua: {31,19,1} con coste = 511
+iteracion = 491
+nodo actua: {28,17,3} con coste = 511
+iteracion = 492
+nodo actua: {28,17,1} con coste = 511
+iteracion = 493
+nodo actua: {26,16,0} con coste = 511
+iteracion = 494
+nodo actua: {35,21,1} con coste = 512
+iteracion = 495
+nodo actua: {29,18,1} con coste = 512
+iteracion = 496
+nodo actua: {27,16,3} con coste = 512
+iteracion = 497
+nodo actua: {27,16,1} con coste = 512
+iteracion = 498
+nodo actua: {37,21,0} con coste = 513
+iteracion = 499
+nodo actua: {37,21,2} con coste = 513
+iteracion = 500
+nodo actua: {32,18,3} con coste = 513
+iteracion = 501
+nodo actua: {29,17,2} con coste = 513
+iteracion = 502
+nodo actua: {26,17,0} con coste = 513
+iteracion = 503
+nodo actua: {39,21,3} con coste = 514
+iteracion = 504
+nodo actua: {37,22,1} con coste = 514
+iteracion = 505
+nodo actua: {30,18,0} con coste = 514
+iteracion = 506
+nodo actua: {30,18,2} con coste = 514
+iteracion = 507
+nodo actua: {28,16,2} con coste = 514
+iteracion = 508
+nodo actua: {27,17,3} con coste = 514
+iteracion = 509
+nodo actua: {27,17,1} con coste = 514
+iteracion = 510
+nodo actua: {25,16,0} con coste = 514
+iteracion = 511
+nodo actua: {34,19,3} con coste = 515
+iteracion = 512
+nodo actua: {32,19,0} con coste = 515
+iteracion = 513
+nodo actua: {32,19,2} con coste = 515
+iteracion = 514
+nodo actua: {30,19,1} con coste = 515
+iteracion = 515
+nodo actua: {28,18,1} con coste = 515
+iteracion = 516
+nodo actua: {26,16,3} con coste = 515
+iteracion = 517
+nodo actua: {26,16,1} con coste = 515
+iteracion = 518
+nodo actua: {25,17,0} con coste = 515
+iteracion = 519
+nodo actua: {39,22,0} con coste = 516
+iteracion = 520
+nodo actua: {39,22,2} con coste = 516
+iteracion = 521
+nodo actua: {32,20,1} con coste = 516
+iteracion = 522
+nodo actua: {28,17,2} con coste = 516
+iteracion = 523
+nodo actua: {26,17,3} con coste = 516
+iteracion = 524
+nodo actua: {26,17,1} con coste = 516
+iteracion = 525
+nodo actua: {39,23,1} con coste = 517
+iteracion = 526
+nodo actua: {34,20,0} con coste = 517
+iteracion = 527
+nodo actua: {34,20,2} con coste = 517
+iteracion = 528
+nodo actua: {31,18,3} con coste = 517
+iteracion = 529
+nodo actua: {29,18,0} con coste = 517
+iteracion = 530
+nodo actua: {29,18,2} con coste = 517
+iteracion = 531
+nodo actua: {27,16,2} con coste = 517
+iteracion = 532
+nodo actua: {27,18,1} con coste = 517
+iteracion = 533
+nodo actua: {25,16,3} con coste = 517
+iteracion = 534
+nodo actua: {25,16,1} con coste = 517
+iteracion = 535
+nodo actua: {25,17,3} con coste = 517
+iteracion = 536
+nodo actua: {25,17,1} con coste = 517
+iteracion = 537
+nodo actua: {36,20,3} con coste = 518
+iteracion = 538
+nodo actua: {34,21,1} con coste = 518
+iteracion = 539
+nodo actua: {29,19,1} con coste = 518
+iteracion = 540
+nodo actua: {27,15,3} con coste = 518
+iteracion = 541
+nodo actua: {27,17,2} con coste = 518
+iteracion = 542
+nodo actua: {24,16,0} con coste = 518
+iteracion = 543
+nodo actua: {24,17,0} con coste = 518
+iteracion = 544
+nodo actua: {26,18,1} con coste = 518
+iteracion = 545
+nodo actua: {25,18,1} con coste = 518
+he encontrado el destino
+ABIERTOS: 
+{25,18,1}
+{31,19,0}
+{31,19,2}
+{28,18,0}
+{28,18,2}
+{26,16,2}
+{26,17,2}
+{25,17,2}
+{36,21,0}
+{36,21,2}
+{33,19,3}
+{31,20,1}
+{30,18,3}
+{28,19,1}
+{26,15,3}
+{27,18,0}
+{27,18,2}
+{25,16,2}
+{26,18,0}
+{26,18,2}
+{36,22,1}
+{27,19,1}
+{25,15,3}
+{24,17,3}
+{24,17,1}
+{26,19,1}
+{38,21,3}
+{33,20,0}
+{33,20,2}
+{30,19,0}
+{30,19,2}
+{29,18,3}
+{24,16,3}
+{24,16,1}
+{23,17,0}
+{33,21,1}
+{30,20,1}
+{23,16,0}
+{38,11,2}
+{38,22,0}
+{38,22,2}
+{35,20,3}
+{32,19,3}
+{29,19,0}
+{29,19,2}
+{27,15,2}
+{27,15,0}
+{38,10,3}
+{38,23,1}
+{29,20,1}
+{27,14,3}
+{41,21,1}
+{41,21,3}
+{35,21,0}
+{35,21,2}
+{32,20,0}
+{32,20,2}
+{40,22,3}
+{35,22,1}
+{32,21,1}
+{41,22,2}
+{38,10,1}
+{40,23,0}
+{40,23,2}
+{37,21,3}
+{34,20,3}
+{40,24,1}
+{37,22,0}
+{37,22,2}
+{34,21,0}
+{34,21,2}
+{37,23,1}
+{34,22,1}
+{42,3,1}
+{39,22,3}
+{39,23,0}
+{39,23,2}
+{39,24,1}
+{44,3,1}
+{44,3,3}
+CERRADOS: 
+{45,9,0}
+{44,9,0}
+{45,9,3}
+{45,9,1}
+{44,9,3}
+{44,9,1}
+{45,10,1}
+{45,9,2}
+{45,9,0}
+{45,8,3}
+{44,9,2}
+{45,11,1}
+{45,10,0}
+{45,10,2}
+{46,9,2}
+{45,8,2}
+{45,8,0}
+{45,7,3}
+{45,12,1}
+{45,11,0}
+{45,11,2}
+{45,10,3}
+{46,10,2}
+{46,9,1}
+{46,9,3}
+{45,8,1}
+{46,8,2}
+{45,7,2}
+{45,7,0}
+{45,13,1}
+{45,12,0}
+{45,12,2}
+{44,11,0}
+{45,11,3}
+{46,11,2}
+{46,10,1}
+{46,10,3}
+{46,9,0}
+{46,8,3}
+{46,8,1}
+{44,7,0}
+{45,7,1}
+{46,7,2}
+{45,14,1}
+{45,13,0}
+{45,13,2}
+{44,12,0}
+{45,12,3}
+{46,12,2}
+{44,11,3}
+{44,11,1}
+{46,11,1}
+{46,11,3}
+{46,10,0}
+{46,8,0}
+{46,7,3}
+{44,7,3}
+{44,7,1}
+{45,15,1}
+{45,14,0}
+{45,14,2}
+{46,7,1}
+{44,13,0}
+{45,13,3}
+{46,13,2}
+{44,12,3}
+{44,12,1}
+{44,11,2}
+{46,12,1}
+{46,12,3}
+{46,11,0}
+{45,16,1}
+{45,15,0}
+{45,15,2}
+{44,14,0}
+{45,14,3}
+{43,13,0}
+{46,14,2}
+{44,13,3}
+{44,13,1}
+{44,7,2}
+{44,6,3}
+{44,12,2}
+{46,7,0}
+{46,13,1}
+{46,13,3}
+{46,6,3}
+{46,12,0}
+{45,17,1}
+{45,16,0}
+{45,16,2}
+{44,15,0}
+{45,15,3}
+{43,14,0}
+{46,15,2}
+{44,14,3}
+{44,14,1}
+{42,13,0}
+{43,13,3}
+{43,13,1}
+{44,13,2}
+{46,14,1}
+{46,14,3}
+{46,13,0}
+{44,6,2}
+{44,6,0}
+{44,5,3}
+{46,6,2}
+{46,6,0}
+{45,18,1}
+{45,17,0}
+{45,17,2}
+{44,16,0}
+{45,16,3}
+{43,15,0}
+{46,16,2}
+{44,15,3}
+{44,15,1}
+{42,14,0}
+{43,14,3}
+{43,14,1}
+{41,13,0}
+{42,13,3}
+{42,13,1}
+{44,14,2}
+{46,15,1}
+{46,15,3}
+{43,13,2}
+{46,14,0}
+{45,18,0}
+{45,18,2}
+{44,17,0}
+{45,17,3}
+{43,16,0}
+{46,17,2}
+{44,16,3}
+{44,16,1}
+{42,15,0}
+{43,15,3}
+{43,15,1}
+{41,14,0}
+{42,14,3}
+{42,14,1}
+{40,13,0}
+{43,6,0}
+{44,15,2}
+{41,13,3}
+{41,13,1}
+{44,6,1}
+{46,16,1}
+{46,16,3}
+{43,14,2}
+{42,13,2}
+{44,5,2}
+{44,5,0}
+{46,15,0}
+{46,6,1}
+{44,18,0}
+{45,18,3}
+{43,17,0}
+{46,18,2}
+{44,17,3}
+{44,17,1}
+{42,16,0}
+{43,16,3}
+{43,16,1}
+{41,15,0}
+{42,15,3}
+{42,15,1}
+{44,16,2}
+{41,14,3}
+{41,14,1}
+{46,17,1}
+{46,17,3}
+{43,15,2}
+{40,13,3}
+{40,13,1}
+{42,14,2}
+{41,13,2}
+{46,16,0}
+{42,6,0}
+{43,6,3}
+{43,6,1}
+{43,18,0}
+{44,18,3}
+{44,18,1}
+{42,17,0}
+{43,5,0}
+{43,17,3}
+{43,17,1}
+{41,16,0}
+{44,5,1}
+{42,16,3}
+{42,16,1}
+{44,17,2}
+{41,15,3}
+{41,15,1}
+{46,18,1}
+{46,18,3}
+{43,16,2}
+{42,15,2}
+{41,14,2}
+{40,13,2}
+{40,12,3}
+{46,17,0}
+{43,18,3}
+{43,18,1}
+{41,17,0}
+{42,17,3}
+{42,17,1}
+{40,16,0}
+{44,18,2}
+{41,16,3}
+{41,16,1}
+{43,17,2}
+{42,16,2}
+{41,15,2}
+{42,6,3}
+{42,6,1}
+{46,18,0}
+{43,6,2}
+{43,5,3}
+{40,12,2}
+{40,12,0}
+{42,5,0}
+{43,5,1}
+{40,17,0}
+{41,17,3}
+{41,17,1}
+{39,16,0}
+{43,18,2}
+{40,16,3}
+{40,16,1}
+{42,17,2}
+{41,16,2}
+{39,12,0}
+{39,17,0}
+{40,12,1}
+{40,17,3}
+{40,17,1}
+{38,16,0}
+{39,16,3}
+{39,16,1}
+{41,17,2}
+{42,7,1}
+{40,16,2}
+{42,6,2}
+{42,5,3}
+{43,5,2}
+{43,4,3}
+{42,5,1}
+{38,17,0}
+{39,17,3}
+{39,17,1}
+{37,16,0}
+{40,18,1}
+{38,16,3}
+{38,16,1}
+{40,17,2}
+{39,16,2}
+{39,12,3}
+{39,12,1}
+{37,17,0}
+{38,17,3}
+{38,17,1}
+{36,16,0}
+{39,18,1}
+{37,16,3}
+{37,16,1}
+{42,8,1}
+{39,17,2}
+{42,7,0}
+{42,7,2}
+{40,18,0}
+{40,18,2}
+{38,16,2}
+{40,19,1}
+{42,5,2}
+{42,4,3}
+{39,12,2}
+{36,17,0}
+{39,11,3}
+{37,17,3}
+{37,17,1}
+{35,16,0}
+{43,4,2}
+{43,4,0}
+{38,18,1}
+{36,16,3}
+{36,16,1}
+{43,3,3}
+{38,17,2}
+{39,18,0}
+{39,18,2}
+{37,16,2}
+{39,19,1}
+{40,18,3}
+{40,19,0}
+{40,19,2}
+{40,20,1}
+{35,17,0}
+{36,17,3}
+{36,17,1}
+{34,16,0}
+{37,18,1}
+{35,16,3}
+{35,16,1}
+{37,17,2}
+{38,18,0}
+{38,18,2}
+{36,16,2}
+{38,19,1}
+{42,8,0}
+{42,8,2}
+{39,18,3}
+{42,7,3}
+{39,19,0}
+{39,19,2}
+{39,20,1}
+{39,11,2}
+{39,11,0}
+{34,17,0}
+{39,10,3}
+{35,17,3}
+{35,17,1}
+{33,16,0}
+{36,18,1}
+{34,16,3}
+{34,16,1}
+{40,19,3}
+{36,17,2}
+{37,18,0}
+{37,18,2}
+{35,16,2}
+{42,4,2}
+{42,4,0}
+{40,20,0}
+{40,20,2}
+{37,19,1}
+{42,3,3}
+{40,21,1}
+{38,18,3}
+{38,19,0}
+{38,19,2}
+{38,20,1}
+{33,17,0}
+{34,17,3}
+{34,17,1}
+{32,16,0}
+{43,4,1}
+{35,18,1}
+{33,16,3}
+{33,16,1}
+{35,17,2}
+{43,3,2}
+{43,3,0}
+{39,19,3}
+{36,18,0}
+{36,18,2}
+{34,16,2}
+{36,19,1}
+{39,20,0}
+{39,20,2}
+{39,21,1}
+{37,18,3}
+{37,19,0}
+{37,19,2}
+{32,17,0}
+{37,20,1}
+{33,17,3}
+{33,17,1}
+{31,16,0}
+{38,11,0}
+{34,18,1}
+{32,16,3}
+{32,16,1}
+{39,11,1}
+{34,17,2}
+{42,8,3}
+{40,20,3}
+{35,18,0}
+{35,18,2}
+{33,16,2}
+{39,10,2}
+{39,10,0}
+{38,19,3}
+{35,19,1}
+{40,21,0}
+{40,21,2}
+{40,22,1}
+{38,20,0}
+{38,20,2}
+{36,18,3}
+{38,21,1}
+{31,17,0}
+{36,19,0}
+{36,19,2}
+{32,17,3}
+{32,17,1}
+{30,16,0}
+{36,20,1}
+{33,18,1}
+{31,16,3}
+{31,16,1}
+{33,17,2}
+{34,18,0}
+{34,18,2}
+{32,16,2}
+{34,19,1}
+{39,20,3}
+{37,19,3}
+{35,18,3}
+{30,17,0}
+{39,21,0}
+{39,21,2}
+{37,20,0}
+{37,20,2}
+{31,17,3}
+{31,17,1}
+{29,16,0}
+{39,22,1}
+{37,21,1}
+{35,19,0}
+{35,19,2}
+{32,18,1}
+{30,16,3}
+{30,16,1}
+{42,4,1}
+{35,20,1}
+{32,17,2}
+{33,18,0}
+{33,18,2}
+{31,16,2}
+{42,3,2}
+{42,3,0}
+{33,19,1}
+{29,17,0}
+{36,19,3}
+{34,18,3}
+{30,17,3}
+{30,17,1}
+{28,16,0}
+{38,11,3}
+{38,11,1}
+{38,20,3}
+{31,18,1}
+{29,16,3}
+{29,16,1}
+{36,20,0}
+{36,20,2}
+{34,19,0}
+{34,19,2}
+{31,17,2}
+{40,21,3}
+{38,21,0}
+{38,21,2}
+{36,21,1}
+{34,20,1}
+{32,18,0}
+{32,18,2}
+{30,16,2}
+{41,21,2}
+{38,22,1}
+{32,19,1}
+{28,17,0}
+{38,10,0}
+{40,22,0}
+{40,22,2}
+{29,17,3}
+{29,17,1}
+{27,16,0}
+{39,10,1}
+{40,23,1}
+{33,18,3}
+{30,18,1}
+{28,16,3}
+{28,16,1}
+{43,3,1}
+{35,19,3}
+{30,17,2}
+{44,3,2}
+{33,19,0}
+{33,19,2}
+{31,18,2}
+{29,16,2}
+{27,17,0}
+{37,20,3}
+{35,20,0}
+{35,20,2}
+{33,20,1}
+{31,19,1}
+{28,17,3}
+{28,17,1}
+{26,16,0}
+{35,21,1}
+{29,18,1}
+{27,16,3}
+{27,16,1}
+{37,21,0}
+{37,21,2}
+{32,18,3}
+{29,17,2}
+{26,17,0}
+{39,21,3}
+{37,22,1}
+{30,18,0}
+{30,18,2}
+{28,16,2}
+{27,17,3}
+{27,17,1}
+{25,16,0}
+{34,19,3}
+{32,19,0}
+{32,19,2}
+{30,19,1}
+{28,18,1}
+{26,16,3}
+{26,16,1}
+{25,17,0}
+{39,22,0}
+{39,22,2}
+{32,20,1}
+{28,17,2}
+{26,17,3}
+{26,17,1}
+{39,23,1}
+{34,20,0}
+{34,20,2}
+{31,18,3}
+{29,18,0}
+{29,18,2}
+{27,16,2}
+{27,18,1}
+{25,16,3}
+{25,16,1}
+{25,17,3}
+{25,17,1}
+{36,20,3}
+{34,21,1}
+{29,19,1}
+{27,15,3}
+{27,17,2}
+{24,16,0}
+{24,17,0}
+{26,18,1}
+MEJOR CAMINO:
+muestreo: muestreo: {25,18,1}
+muestreo: {25,18,1}
+{747025680,32764,747025712}
+muestreo: {25,18,1}
+{747025680,32764,747025712}
+{747025984,32764,839416716}
+muestreo: {25,18,1}
+{747025680,32764,747025712}
+{747025984,32764,839416716}
+{499,0,45}
