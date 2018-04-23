@@ -24,32 +24,33 @@ class Nodo {
       coste = micoste ;
     }
 
-    estado getEstado() {
+    Nodo (const Nodo &n) {
+      state = n.getEstado();
+      padre = n.getPadre();
+      coste = n.getCoste();
+    }
+
+    estado getEstado() const {
       return state ;
     }
 
-    int getCoste() {
+    int getCoste() const {
       return coste ;
     }
 
-    Nodo getPadre() {
-      return *padre ;
+    Nodo* getPadre() const {
+      return padre ;
     }
 
     void setCoste(int c) {
       coste = c ;
     }
 
-    friend bool operator<(const Nodo &n1, const Nodo &n2) {
-      return n1.coste < n2.coste ;
-    }
-
 };
 
-
 /*
-bool cmp(const Nodo &n1, const Nodo &n2) {
-  return (n1.getCoste() < n2.getCoste());
+bool cmp(const Nodo* n1, const Nodo* n2) {
+  return (n1->getCoste() < n2->getCoste());
 }
 */
 
@@ -87,8 +88,8 @@ class ComportamientoJugador : public Comportamiento {
       ultimaAccion = actIDLE;
       hayPlan = false;
       mapa = mapaR ;
-      for (int i = 0 ; i < mapa.size() ; i++) {
-	       for (int j = 0 ; j < mapa.size() ; j++) {
+      for (int i = 0 ; i < mapaR.size() ; i++) {
+	       for (int j = 0 ; j < mapaR.size() ; j++) {
 	          if (mapa[i][j] == 'B' || mapa[i][j] == 'A' || mapa[i][j] == 'P' || mapa[i][j] == 'M')
 			         mapa_transitable[i][j] = false ;
             else
@@ -105,8 +106,7 @@ class ComportamientoJugador : public Comportamiento {
     void VisualizaPlan(const estado &st, const list<Action> &plan);
     ComportamientoJugador * clone(){return new ComportamientoJugador(*this);}
 
-    int heuristica(const estado &origen, const estado &destino);
-    void adyacentes (Nodo actual, list<Nodo> &abiertos);
+    //void adyacentes (Nodo* actual, list<Nodo*> &abiertos);
 
   private:
     // Declarar Variables de Estado
@@ -123,8 +123,6 @@ class ComportamientoJugador : public Comportamiento {
     bool mapa_transitable[TAM][TAM];
     bool nodos_cerrados[TAM][TAM][4] ;
     pair<bool, int> nodos_abiertos [TAM][TAM][4] ;
-    int map_size ;
-
 
     bool pathFinding(const estado &origen, const estado &destino, list<Action> &plan);
     void PintaPlan(list<Action> plan);
@@ -134,9 +132,10 @@ class ComportamientoJugador : public Comportamiento {
     void gira_der ();
     //void ubica (Sensores sensores);
     bool esIgual(const estado &primero , const estado &segundo);
-    void construyePlan(list<Action> &plan, list<Nodo> mejorCamino); // Paso una copia para no romper el mejorCamino
     bool esCerrado(Nodo n) ;
     bool esAbierto(Nodo n) ;
+    int heuristica(const estado &origen, const estado &destino);
+    void construyePlan(list<Action> &plan, list<Nodo*> mejorCamino); // Paso una copia para no romper el mejorCamino
 
 };
 
