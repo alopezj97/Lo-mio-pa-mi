@@ -286,7 +286,7 @@ Action ComportamientoJugador::think(Sensores sensores) {
 	//cerr << "entro a think" << endl ;
 
 	// Si podemos saber nuestra posición (nivel 1 y 2) nos ubicamos
-	cout << "sensores: " << sensores.mensajeF << sensores.mensajeC << endl;
+	//cout << "sensores: " << sensores.mensajeF << sensores.mensajeC << endl;
 	bool localizado = (sensores.mensajeF != -1) && (sensores.mensajeC != -1) ;
 
   if (inicializado && localizado){
@@ -348,6 +348,13 @@ Action ComportamientoJugador::think(Sensores sensores) {
 		destino.columna = sensores.destinoC;
 
 		hayPlan = pathFinding(origen,destino,plan);
+
+		switch (brujula) {
+			case 0: mapa_transitable[fil-1][col] = true ;
+			case 1: mapa_transitable[fil][col+1] = true ;
+			case 2: mapa_transitable[fil][col-1] = true ;
+			case 3: mapa_transitable[fil+1][col] = true ;
+		}
 
 	}
 
