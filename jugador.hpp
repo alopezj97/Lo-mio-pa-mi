@@ -70,6 +70,7 @@ class ComportamientoJugador : public Comportamiento {
       inicializado = false ;
       ultimaAccion = actIDLE;
       hayPlan = false;
+      mapa = mapaResultado;
 
 
     }
@@ -80,18 +81,10 @@ class ComportamientoJugador : public Comportamiento {
       destino.fila = -1;
       destino.columna = -1;
       destino.orientacion = -1;
-      inicializado = true ;
+      inicializado = false ;
       ultimaAccion = actIDLE;
       hayPlan = false;
       mapa = mapaR ;
-      for (int i = 0 ; i < mapaR.size() ; i++) {
-	       for (int j = 0 ; j < mapaR.size() ; j++) {
-	          if (mapa[i][j] == 'B' || mapa[i][j] == 'A' || mapa[i][j] == 'P' || mapa[i][j] == 'M')
-			         mapa_transitable[i][j] = false ;
-            else
-			 	       mapa_transitable[i][j] = true ;
-		      }
-	    }
 
     }
     ComportamientoJugador(const ComportamientoJugador & comport) : Comportamiento(comport){}
@@ -116,10 +109,9 @@ class ComportamientoJugador : public Comportamiento {
     static const int TAM= 100 ;
     bool inicializado;
     vector< vector<unsigned char> > mapa ;
-    bool mapa_transitable[TAM][TAM];
     bool nodos_cerrados[TAM][TAM][4] ;
     pair<bool, int> nodos_abiertos [TAM][TAM][4] ;
-    bool mapa3[TAM*2][TAM*2];
+    char mapa3[TAM*2][TAM*2];
 
     bool pathFinding(const estado &origen, const estado &destino, list<Action> &plan);
     void PintaPlan(list<Action> plan);
@@ -133,6 +125,9 @@ class ComportamientoJugador : public Comportamiento {
     bool esAbierto(Nodo n) ;
     int heuristica(const estado &origen, const estado &destino);
     void construyePlan(list<Action> &plan, list<Nodo*> mejorCamino); // Paso una copia para no romper el mejorCamino
+    int fila_PK (int fil_actual, int brujula, int i);
+    int columna_PK (int col_actual, int brujula, int i);
+    void actualiza_mapa(Sensores &sensores);
 
 };
 
