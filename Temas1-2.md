@@ -460,3 +460,115 @@ Se usan para agrupar de forma lógica los casos de uso en diferentes diagramas d
 Diagramas de actividad: Diagrama de UML para la descripción del comportamiento que tiene un conjunto de tareas o procesos.
 
 Se usan para representar los procesos de negocio de una empresa, o para representar los flujos de un caso de uso de forma gráfica.
+
+
+# TEMA 2.4: Análisis y especificación de requisitos
+
+## Introducción
+
+Fase de la ingeniería de requisitos en la que se examinan los requisitos para delimitarlos y definir exactamente cada uno de ellos.
+
+Se trata fundamentalmente de:
+- Detectar y resolver conflictos entre requisitos
+- Delimitar el software y establecer con qué elementos externos interacciona.
+- Elaborar los requisitos del sistema para obtener, a partir de ellos, los requisitos del software a desarrollar.
+
+El objetivo principal del análisis de los requisitos es refinar, estructurar y describir los requisitos para una comprensión más precisa y fácil de mantener que ayude a estructurar el sistema completo.
+
+Actividades durante el análisis:
+- Clasificación de los requisitos: Establecer un conjunto de categorías y situar cada requisito en ellas.
+- Priorización de los requisitos: Determinar la importancia relativa de cada requisito en relación con los demás.
+- Modelado conceptual: Representar los requisitos con un lenguaje o notación que comprendan quienes van a tratar con ellos.
+- Situación de los requisitos en la arquitectura del sistema: Establecer qué elementos del sistema software van a satisfacer los distintos requisitos. Permite descubrir nuevos requisitos.
+- Negociación de los requisitos: Detectar y resolver problemas, definir de manera precisa los límites del sistema y cómo éste debe interaccionar con su entorno.
+
+Especificación de requisitos: Completa descripción de los requisitos del sistema a desarrollar.
+
+Una especificación debe ser:
+- Completa
+- Verificable
+- Consistente
+- Modificable
+- Susceptible de permitir seguimientos
+- Utilizable durante las fases de operación y mantenimiento
+- No debe contener ambigüedades
+
+
+## Análisis y especificación orientada a objetos
+
+El análisis orientado a objetos examina y representa los requisitos desde la perspectiva de los objetos que se encuentran en el dominio del problema.
+
+Los métodos de análisis orientado a objetos se centran en obtener dos tipos de modelos:
+- Estáticos o de estructura
+- Dinámicos o de comportamiento
+
+¿Por qué usar análisis orientado a objetos? -> Difumina la barrera entre el "qué"" y el "cómo"
+- Los términos usados en los modelos están cercanos a los del mundo real.
+- Se modelan tanto elementos y propiedades estáticas como dinámicas del ámbito del problema.
+- Se manejan conceptos comunes durante el análisis, diseño e implementación del software.
+
+
+## Obtención del modelo estático: Diagramas de conceptos
+
+Proceso general:
+- Identificar los principales conceptos y sus relaciones y documentarlos.
+- Partir del modelo de casos de usos, de la lista de requisitos y del glosario de términos.
+- Representarlos con un diagrama de clases de UML en el que podrá haber
+  - Conceptos o clases conceptuales
+  - Asociaciones entre conceptos
+  - Generalizaciones de conceptos
+  - Atributos de los conceptos
+
+Pasos a seguir:
+1. Identificar e incorporar conceptos
+  1.1. Identificar los conceptos (encontrar términos que se corresponden con sustantivos o frases nominales y establecer una lista de categorías de conceptos y rellenarla)
+  1.2. Seleccionar los conceptos relevantes del problema
+  1.3. Representarlos, como clases, en el diagrama de conceptos.
+2. Identificar e incorporar asociaciones (relaciones entre conceptos)
+  2.1. Identificar las posibles asociaciones
+  2.2. Representarlas en el diagrama y seleccionar las que sean válidas.
+  2.3. Asignarles nombre
+  2.4. Identificar la multiplicidad
+3. Identificar e incorporar generalizaciones
+  3.1. Identificar posibles generalizaciones
+  3.2. Validar las estructuras encontradas
+  3.3. Representarlas en el modelo conceptual
+4. Identificar e incorporar atributos
+  4.1. Identificar atributos
+  4.2. Representarlos en el diagrama
+5. Estructurar el modelo (diagramas de paquetes)
+
+
+## Obtención del modelo de comportamiento : Diagramas de secuencia del sistema y Contratos
+
+**Diagrama de secuencia del sistema**: Diagrama de secuencia de UML en el que se muestran cómo los eventos generados por los actores provocan la ejecución de una operación por el sistema, siendo visto éste como una caja negra.
+
+Pasos a seguir, para todos los casos de uso:
+1. Identificar los actores que inician las operaciones
+2. Asignar un nombre a todo el sistema
+3. Identificar y nombrar las operaciones principales del sistema a partir de las descripciones de los casos de uso
+4. Determinar los parámetros de las operaciones
+5. Incluir las operaciones en la clase que identifica a todo el sistema
+6. Hacer una descripción informal de la funcionalidad de cada operación.
+
+
+**Contratos**: Documento que describe lo que una operación se propone lograr, sin decir cómo lo conseguirá. Define la especificación de una operación sin entrar en su implementación. Suele redactarse con un estilo declarativo.
+
+Contenido del contrato:
+- Nombre: Nombre de la operación y sus parámetros (viene del diagrama de secuencia del sistema)
+- Responsabilidad: Descripción informal de las responsabilidades que debe cumplir la operación.
+- Tipo: Concepto, clase o interfaz responsable de la operación (nombre de la clase del sistema)
+- Notas: Notas de diseño, algoritmo...
+- Excepciones: Casos excepcionales
+- Salida: Mensajes o datos que proporciona
+- Precondiciones: Suposición acerca del estado del sistema o de los objetos del modelo conceptual antes de ejecutar la operación.
+- Poscondiciones: Estado del sistema o de los objetos del modelo conceptual después de la ejecución de la operación. (Expresadas en pasado)
+
+| Nombre | incluirNotaExpediente (idAsignatura, idAlumno, nota) |
+| Responsabilidad | Incluye una asignatura con su nota en el expediente de un alumno |
+| Tipo | SAP |
+| Notas | |
+| Excepciones | Si el alumno identificado por idAlumno no existe ó si la asignatura identificada por idAsignatura no existe |
+| Salida | |
+| Precondiciones | |
+| Poscondiciones | Fue creado un objeto, calif, de la clase Calificación debidamente inicializado, fue creado un enlace entre calif y el objeto de la clase Expediente identificado por idAlumno, fue creado un enlace entre calif y el objeto de la clase Asignatura identificado por idAsignatura |
