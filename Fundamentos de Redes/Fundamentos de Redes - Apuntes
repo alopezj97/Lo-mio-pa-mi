@@ -1,0 +1,194 @@
+Kurose: http://www.ingebook.com/ib/NPcd/IB_Escritorio_Visualizar?cod_primaria=1000193&libro=6752
+Juama: http://www.ingebook.com/ib/NPcd/IB_Escritorio_Visualizar?cod_primaria=1000193&libro=4704
+Loéve: https://link.springer.com/book/10.1007/978-1-4684-9464-8
+
+
+TEMA 1
+
+
+LAN ~ 1 KM
+MAN ~ 10 KM 
+WAN ~ >10 KM -> REDES MÓVILES
+
+EL WIFI DE LA CASA PUEDE SER TANTO DE DIFUSIÓN (EL ROUTER EMITE A LOS DISPOSITIVOS) COMO DE PUNTO A PUNTO (SI UN ORDENADOR A ENVIA ALGO A B PASA POR EL ROUTER HASTA LLEGAR A B)
+
+HOSTS: SISTEMAS CAPACES DE RECIBIR INFORMACIÓN, POR EJEMPLO, FAROLAS CON EL TIEMPO
+
+LÍNEAS DE TRANSMISIÓN: CABLE, FIBRA, AIRE...
+
+PROBLEMAS A RESOLVER POR LA RED:
+	- COMO ENVIAR FISICAMENTE LA INFORMACION -> PULSOS ELÉCTRICOS, SEÑALES DE HUMO...
+	- COMPARTICIÓN DEL MEDIO -> SI VARIOS ORDENADORES QUIEREN ACCEDER AL MISMO RECURSO ESO TENDRÁ QUE TENER UN PROTOCOLO O ALGO.
+	- CONTROL DE FLUJO Y ERRORES -> LA RED TIENE QUE TENER MECANISMOS PARA QUE CUANDO SE ENVÍE UN 1 LLEGUE UN 1, LO CUAL NO ES FÁCIL, PUEDE HABER RUIDO EN LAS SEÑALES O QUE UNA SEÑAL SE ENVÍE AL SITIO EQUIVOCADO.
+
+	SUPONGAMOS QUE EL PROFESOR DICTA AL ALUMNO, SI EL PROFESOR DICTA RÁPIDO Y EL ALUMNO COPIA LENTO ENTONCES EL BÚFFER SE LLENA Y SE PIERDE INFORMACIÓN POR TANTO HAY QUE CONTROLAR Y EVITAR FALLOS EN EL CONTROL DE FLUJO.
+
+	- CONTROL DE ENCAMINAMIENTO -> HAY QUE ELEGIR EL MEJOR CAMINO PARA LA INFORMACIÓN
+
+	- CONTROL DE CONGESTIÓN -> UN RECURSO TIENE QUE SER EFICAZ SIN PERDER PRESTACIONES (ES COMPLEJO)
+
+
+MODELO DE REFERENCIA (asignación de capas a cada cosa) -> MODELO OSI 
+
+	- CAPA FISICA -> TRANSMISIÓN
+	- CAPA ENLACE -> Acceso al medio, Delimitación (tramas), control de errores, control de flujo
+	- CAPA RED -> encaminamiento
+
+	Estas tres capas son capas salto-a-salto, el resto son capas extremo-a-extremo (los dos host)
+
+	
+
+	- CAPA TRANSPORTE -> control de congestión -> qué cantidad de tráfico genero para no dejar exhausto a los recursos de red (ancho de banda de la línea (es finito) búffer en los routers (también finito))
+	- CAPA DE SESIÓN -> dialogo -> regulo el "turno de palabra", es un mecanismo que regula los "turnos" (uno se logea se le autoriza...) 
+	- CAPA DE REPRESENTACIÓN -> Sinxtaxis de la información -> Regula la sintaxis para que ambas máquinas puedan entenderse
+	- CAPA DE APLICACIÓN -> Semántica de la información -> 
+
+
+
+MODELO TCP/IP 
+
+	Parte de que hay una red subyacente (que ya existe, no se preocupa de su creación sino que la da por sentada) y se hace uso de ella a partir de una API y a partir de ahi, la red es salto a salto (involucra a los routers), transporte y sesión -> transporte, representación y aplicación -> aplicación
+
+
+
+EJEMPLO DE CAPAS
+
+TRUMP 		<-> virtualmente 	<-> Kim Jong-un
+	| mensaje (ambas direcciones)			| mensaje (ambas direcciones)
+Traductor <-> virtualmente 	<-> traductor
+	| real (ambas direcciones) 				| real (ambas direcciones)
+Teléfono	<------------------> teléfono
+
+
+	Entidades pares -> traductores (entidad de enfrente)
+	Protocolo -> Conjunto de reglas que regulan el intercambio de información virtual entre entidades pares en una capa (Ejemplo de protocolos: Http, DNS)
+	Interfaz -> Separación entre capas, por donde fluye la información entre capas
+	Servicio -> Cada una de las funcionalidades que ofrece una capa (servicio de transmisión, acceso al medio, delimitación, control de errores...)
+	Capa proovedora de servicio -> La capa proveedora de servicio es la capa inferior, el usuario, la capa superior.
+	Pila de protocolos -> 
+	Arquitectura de red -> Unión de un modelo de referencia (OSI, TCP/IP) y una pila de protocolos. Si dos host tienen la misma arquitectura entonces es condición necesaria y suficiente para que dos host intercambien información transparente y eficazmente. El resto de cosas pueden cambiar (la red, el SO, el cliente de whatsapp).
+
+		
+RETARDO
+
+1) Tiempo de acceso al medio (tiempo que pasa hasta que "te toca")
+2) Tiempo de procesamiento (también salto a salto, decide que ruta tomar)
+3) Tiempo en la cola (tiempo que pasa hasta que el paquete se envía)	
+4) Tiempo de transmisión (envías un 1KB pero la línea de transmisión tiene una velocidad de transimisión Vt (ancho de banda = capacidad de la línea = Vt = bits/s) si esa vt es menor tardará en enviarse todo)
+5) Tiempo de propagación (relacionado con la distancia que tiene que recorrer)
+
+
+
+SERVICIOS 
+
+	- Orientado a conexión -> Exige simultaneidad y acomplamiento entre las dos entidades antes del envío de información (antes de empezar a hablar hay que estar en un estado determinado) -> Ejemplo: llamada de teléfono
+
+	- No orientado a conexión -> No tiene porqué "esperar" a esa situación, yo te envío la información y ya tu la lees -> Ejemplo: un sms, una carta...
+
+
+	- Confirmados (ACK = acknoledgment) -> Exige un retorno o una retroalimentación (Un OK de que todo ha llegado bien)
+
+	- No Confirmados -> No esperas ninguna respuesta 
+
+
+TOPOLOGÍA DE INTERNET
+
+Una red doméstica/empresarial/de usuario final (intranet) <=> accede a internet a través de un <=> ISP de acceso (redes de acceso, Vodafone, ONO...) -> Operadores de telecomunicaciones que le venden a estos 
+
+Cuando un ISP solicita a un ISP regional (o entre operadores) que tipo de acuerdos se dan?
+
+	Acuerdos:
+		- Peering -> Contratos que se dan entre operadores para el intercambio de tráfico sin contraprestación económica. -> Ganan conectividad, regiones que no alcanzan.
+		- Tránsito -> Se cambia Mbps a cambio de dollars.
+
+
+	TIPOS DE OPERADORES DE INTERNET
+
+		TIER 1 -> Operadores que acceden a cualquier IP sólo con peering -> Ganan vendiendo tránsito a los de abajo.
+		TIER 2 -> Operadores que necesitan para acceder acuerdos de tránsito, aunque también tienen peering. -> Ganan vendiendo a los tier 3
+		TIER 3 -> Operadores que necesitan tránsito. -> Ganan vendiendo a los ISP de acceso
+
+	PUNTOS NEUTROS O PUNTOS DE PRESENCIA O PUNTOS DE INTERCAMBIOS
+
+		Son empresas que ponen a disposicion de los operadores infraestructuras para hacer el intercambio de tránsito. Si queremos enviarle un mensaje a nuestro vecino, para que el mensaje no tenga que ir muy lejos para hacer el intercambio, existen estos puntos neutros, normalmente más cercanos.
+
+
+
+INTERNET: ARQUITECTURA Y DIRECCIONAMIENTO
+
+Nosotros al usar un servicio web (www.du_ac.in) necesitamos una IP que la obtenemos mediante el servicio DNS.
+
+Ese servicio o recurso se accede mediante un protocolo http. El protocolo encapsula el mensaje en un segmento TCP que se lo pasa a IP y le añade una nueva cabecera y aunque virtualmente se le pasa al IP de la derecha en realidad se lo pasa al driver de nuestro Wifi el cual le pone la cabecera y ahora sí, lo envía (en este caso a IEEE) y coge el segmento, se lo pasa a IP y se decide cual es el camino salto a salto que tiene que recorrer hasta que llega al destino y una vez llega al destino empieza a quitar cabeceras conforme va subiendo de capas (IEEE -> IP -> TCP -> HTTP) hasta que el usuario final ve el mensaje.
+
+
+En cada una de las capas del modelo existe un problema de direccionamiento (metodología para identificar entidades).
+
+En la capa de aplicación el modelo de direccionamiento son las URL ( [protocolo]://dominio/recurso ). 
+
+En la capa de transporte se identifican entidades mediante los puertos. Hay puertos que estan universalmente asignados y si nuestro protocolo es http nuestro puerto será el 80, si es el dns el 53, si es el telnet 23...
+
+En la capa de red se identifican mediante direcciones IP (32 bits)
+
+
+
+TEMA 2
+
+ESTRUCTURA DE PROTOCOLOS
+
+	CAPA DE APLICACIÓN
+
+	Se ha creado un el paradigma cliente/servidor. Se basa en dos entidades, una que hace de cliente y envia mensajes (solicitudes) y otra que hace servidor que genera mensajes (respuestas) de vuelta. En este paradigma debe de haber un acoplamiento temporal (ambos deben estar disponibles) y acoplamiento espacial (debo saber donde está el dato que quiero buscar, qué servidor los tiene).
+Los servidores están asociados a una IP pública que es única (la pag web de la ugr tiene una IP única), aunque cada vez más se usan granjas de servidores. 
+
+
+	Otro paradigma del desarrollo de aplicaciones en Internet sería el P2P (peer to peer) donde hay aplicaciones que hacen publicaciones y otras que se subscriben a un espacio de datos. En este paradigma no tiene por qué haber acoplamiento espacial (me da igual quien lo haya publicado), los publicadores dan datos a un tópico que se puede entender como un canal que conecta los publicadores con los subscriptores ( los publicadores generan entradas en el tópico vuelo (billete de avión por ejemplo) y los subscriptores se subscriben al tópico vuelo para descargarlos). El espacio de datos siempre tiene que estar operativos pero no necesariamente el publicador o subscriptor.
+
+
+	El modelo cliente/servidor está vinculado a la interfaz socket. ¿Cómo la capa de aplicación hace uso de los servicios de la capa de transporte? A través de la interfaz socket, que no está vinculada a ningún SO. Es una abstracción que permite a la capa de aplicación (capa de usuario) hacer uso del transporte (capa del SO). 
+
+	El precedente histórico de la interfaz socket fue el 'file descriptor' para la I/O en SO para archivos (mediante las ordenes open/read/writer/close). Asociado al file descriptor está el file name. La interfaz socket en vez de describir un fichero describe una comunicación o transmisión (descriptor de transmisión). El socket en lugar del file name va a necesitar IP local, puerto local, IP remota y puerto remoto.
+
+	Para crear aplicaciones en internet sólo tengo que abrir mi socket, dar los atributos y realizar operaciones de escribir y leer (open/read...) y el qué escribo y leo lo decide el protocolo.
+
+
+	Los servidores se modelan mediante la teoría de colas. La llegada de solicitudes a una cola se llama ratio de llegada (lambda) = llegadas/ tiempo. Del mismo modo, el ratio de salidas (mu) = salidas / tiempo. El ratio de llegada y de salida puede verse como una distribución de probabilidad -> M (razón de llegada) / M (razón de salida) / 1 (servidores) 
+
+
+	¿Qué definen los protocolos de aplicación? 
+		- Tipo de servicio
+			- Realimentado (espero confirmación) o no
+		- Sintaxis
+			- orientados a texto <-> ASCII , HTTP ( se envía GET www.ugr.es HTTP/1.0 )
+			- no orientados a texto <-> DNS va en binario
+
+	
+	Tipos de protocolos
+		- Propietarios -> No se especifica como funciona (como son las cabeceras)
+		- Públicos (normalizados) -> A través de un acuerdo se estandarizan los protocolos (Internet Engineering Task Force) mediante documentos Request For Comment
+		- in-band -> datos y control (respuestas de que todo va bien) por el mismo canal
+		- out-of-band -> canal de control es distinto al canal por el que van los datos
+		- statefull -> guardan estados (clientes de correo -> POP, IMAP), hasta que no te logueas no te deja consultar tu correo.
+		- state-less -> no guardan estados, no tienen memoria, no saben donde hemos estado (HTTP) 
+		- persistentes -> mantienen la conexión durante un tiempo especificado en la configuración y permiten múltiples interacciones durante ese tiempo
+		- no persistentes -> permiten una solicitud, se sirve el objeto y se acaba la comunicación es decir, permiten una interacción. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
