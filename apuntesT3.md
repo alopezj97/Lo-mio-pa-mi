@@ -201,7 +201,9 @@ Manifiesto de los sistemas de base de datos orientados (1989): Establecieron una
   - Sistema de tipos
   - Uniformidad (¿todo objetos?)
 
-El sistema de gestión de bases de datos de un modelo de datos orientado a objetos es similar a una base de datos relacional, pero con un modelo de base de datos orientada a objetos.
+## Modelo de Datos Objeto-Relacional
+
+Similar a una base de datos relacional, pero con un modelo de base de datos orientada a objetos.
 Soporta objetos, clases y herencia directamente en los esquemas de bases de datos y en el lenguaje de consulta.  
 
 Reglas generales para el modelado objeto/relacional:
