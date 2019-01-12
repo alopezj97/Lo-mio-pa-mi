@@ -32,7 +32,7 @@ Desarrollar software es un proceso empírico y no lineal, donde para alcanzar ob
 ## Comparación
 
 | Metodología Ágil | Metodología Tradicional |
-| ------------------------------------------ |
+| ---------------- | ----------------------- |
 | Orientada a proyectos pequeños. Corta duración (o entregas frecuentes), equipos pequeños (<10 integrantes) y trabajando en el mismo sitio. Posibles problemas de escalabilidad en proyectos grandes. | Aplicables a proyectos de cualquier tamaño, pero suelen ser especialmente efectivas/usadas en proyectos grandes y con equipos posiblemente dispersos. Posibles problemas de adaptabilidad a proyectos "pequeños" |
 | Pocos Artefactos. El modelado es prescindible, modelos desechables. | Más Artefactos. El modelado es esencial, mantenimiento de modelos. |
 | Pocos Roles, más genéricos. | Más Roles, más específicos. |
