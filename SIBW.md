@@ -1,13 +1,3 @@
-# DUDAS
-
-- Tema 2, Alojamiento web, ventajas e inconvenientes de las distintas posibilidades
-- Tema 2, diferencia entre programas ejecutables en el servidor y usar lenguajes de scripting
-- Tema 2, tenemos que saber cómo se hace el tema de evitar que nuestro servidor muestre ciertos archivos o la gestión de URLs limpias?
-- Tema 4, XML tenemos que sabernos la Sintaxis?
-- Tema 4, Lenguajes para la web semántica, tenemos que sabernoslos?
-- Tema 5, decretos y leyes nada no?
-- Tema 5, niveles de seguridad
-- Respecto de Javascript, el codigo puede ir inyectado en cualquier lugar, o bien referenciado tras el body no? Pero el código jQuery/AJAX tiene que ir inyectado si o si no?
 
 # Sistemas de Información Basados en Web
 
